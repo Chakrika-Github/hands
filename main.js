@@ -43,13 +43,13 @@ function gotResult(error, results) {
 
         toSpeak = "";
 
-        if (gesture == "amazing") {
+        if (gesture == "pease") {
             toSpeak = "This is looking amazing";
             document.getElementById("result_object_gesture_icon").innerHTML = "&#128076;";
-        } else if (gesture == "best") {
+        } else if (gesture == "tumbs up") {
             toSpeak = "All the best";
             document.getElementById("result_object_gesture_icon").innerHTML = "&#128077;";
-        } else if (gesture == "victory") {
+        } else if (gesture == "spiderman") {
             toSpeak = "That was the marvelous victory";
             document.getElementById("result_object_gesture_icon").innerHTML = "&#9996;";
         }
